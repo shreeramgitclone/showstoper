@@ -1,10 +1,7 @@
 import React from 'react';
-import { useEffect } from 'react';
 import Layout from '../../components/layout/Layout';
 import { motion } from 'framer-motion';
-import ERP from '../../assets/ERP.JPG';
 import '../../styles/pages/ServicesAndSolutionsCommon.css';
-import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4';
 
 export default function EnterpriseResourcePlanning() {
   return (
