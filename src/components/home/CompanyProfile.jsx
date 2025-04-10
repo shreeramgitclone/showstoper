@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
-import CompanyProfileImage from "../../assets/CompanyProfile.jpg";
 import '../../styles/components/home/CompanyProfile.css';
 
 const CompanyProfile = () => {
