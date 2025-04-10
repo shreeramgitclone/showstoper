@@ -1,0 +1,10 @@
+/* Full-screen video background */
+.video-bg {
+  position: absolute;   /* Position the video absolutely within the parent container */
+  top: 0;               /* Align to the top */
+  left: 0;              /* Align to the left */
+  width: 100%;          /* Take up the full width */
+  height: 100%;         /* Take up the full height of the parent container */
+  object-fit: cover;    /* Ensures the video covers the whole container without distortion */
+  z-index: -1;          /* Place the video behind the content */
+}

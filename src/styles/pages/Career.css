@@ -1,0 +1,100 @@
+.career-hero {
+  position: relative;
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d3750;
+  background: linear-gradient(344deg, rgb(36, 28, 56) 0%, #1d3750 50%);
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.career-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 80px 80px; /* controls grid box size */
+  pointer-events: none;
+  z-index: 0;
+}
+
+.career-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.career-hero-content {
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 10;
+  padding-top: 2rem;
+}
+
+.career-form {
+  max-width: 48rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.career-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.career-form-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.career-form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.career-form-input:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.career-form-textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+
+.career-form-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3B82F6;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.career-form-submit:hover {
+  background-color: #2563EB;
+}
+
+.career-form-submit:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+} 

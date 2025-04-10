@@ -1,0 +1,195 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+  background-color: #20364e;
+  /* background: linear-gradient(344deg, rgb(36, 28, 56) 0%, #1d3750 50%); */
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  padding: 30px;
+}
+
+.hero-content{
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid overlay */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 80px 80px; /* controls grid box size */
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-section div > div {
+  font-size: 4rem;
+  font-weight: normal;
+  color: white;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+/* Flip text and glassmorphic styles */
+.hero-line {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.glass-box {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  perspective: 1000px;
+  min-width: fit-content;
+}
+
+.flip-word {
+  display: inline-block;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transform-origin: center bottom;
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateX(90deg);
+  opacity: 0;
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url('src/assets/lady.jpeg'); /* Replace with actual path or use imported variable */
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 0 5%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Add gradient overlay */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #20364e 20%, #20364e 20%, transparent 90%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Content stays above background and gradient */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  color: white;
+}
+
+.hero-line {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.sipmlifying {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+    width: 70%;
+  }
+
+  .hero-section div > div {
+    font-size: 4rem;
+  }
+
+  .hero-line {
+    font-size: 1.5rem;
+  }
+
+  .hero-image {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .hero-content {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section div > div {
+    font-size: 3rem;
+  }
+
+  .hero-line {
+    font-size: 1.2rem;
+    flex-direction: row; /* force one line */
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+
+  .hero-image {
+    max-width: 250px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section div > div {
+    font-size: 2.2rem;
+  }
+
+  .hero-line {
+    font-size: 1rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+  }
+
+  .glass-box {
+    min-width: 100px;
+    padding: 0.2em 0.4em;
+  }
+
+  .hero-image {
+    max-width: 200px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+}

@@ -1,0 +1,44 @@
+.company-profile {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background-color: white;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #1d3750;
+}
+
+.company-vision-divider {
+  width: 15rem;
+  height: 0.05rem;
+  background-color: #ed1c24 !important;
+  margin: 0 auto;
+}
+
+.stats-card {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(249 250 251);
+  border-radius: 0.5rem;
+}
+
+.icon-container {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(95, 39, 205, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ed1c24;
+} 
+.OurApproach{
+  width: 100%;
+  padding: 20px;
+}

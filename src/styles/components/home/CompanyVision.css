@@ -1,0 +1,106 @@
+.company-vision {
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Added to horizontally center content */
+  position: relative; /* Ensure relative positioning for absolute children */
+  color: #e6e7e7;
+  background-color: #1d3750;
+  padding: 20px;
+}
+
+.company-vision-container {
+  /* max-width: 64rem; */
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+  position: relative; 
+}
+
+.video-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* opacity: 0.8; */
+  z-index: -1;
+}
+
+.company-vision-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a202c;
+  margin-bottom: 0.75rem;
+}
+
+.company-vision-title {
+  font-size: 3.40rem;
+  font-weight: 700;
+  /* color: #1a202c; */
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.company-vision-divider {
+  width: 15rem;
+  height: 0.05rem;
+  background-color: #ed1c24;
+  margin: 35px auto;
+}
+
+.company-vision-quote-box {
+  /* background-color: white; */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.company-vision-quote-mark {
+  font-size: 6rem;
+  color: #ed1c24;
+  opacity: 0.2;
+  position: absolute;
+  top: -2.5rem;
+  left: 0;
+}
+
+.company-vision-quote {
+  font-size: 1.25rem;
+  /* color: #1a202c; */
+  color: rgb(218, 218, 218);
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  position: relative;
+  z-index: 1;
+  padding-left: 1rem;
+  text-align: justify;
+  font-weight: 350;
+}
+
+.company-vision-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.company-vision-author-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.company-vision-author-info {
+  flex: 1;
+}
+
+.company-vision-author-name {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.company-vision-author-title {
+  color: #4a5568;
+} 

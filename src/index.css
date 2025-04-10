@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #1B2C3F; */
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:root {
+  /* --primary: #ed1c24;
+  --primary-dark: #4834D4; */
+  --secondary: #2D3748;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  .btn {
+    @apply px-8 py-4 rounded-full font-medium transition-all duration-300 text-lg shadow-lg hover:shadow-xl;
+  }
+
+  .btn-primary {
+    /* @apply bg-[#ed1c24] text-white hover:bg-[#4834D4]; */
+    @apply bg-gray-800 text-white hover:bg-gray-700;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-3;
+  }
+
+  .section-divider {
+    /* @apply w-20 h-1 bg-[#ed1c24]; */
+    @apply w-20 h-1 bg-gray-800;
+  }
+}
+
+/* Custom animations */
+.fade-up {
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}

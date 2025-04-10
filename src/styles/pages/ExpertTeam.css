@@ -1,0 +1,57 @@
+
+.expertise-image{
+    aspect-ratio: 6 / 4;
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .image-fog {
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(transparent 20%, #101821 20%, #1d3042 65%);
+    background-image: radial-gradient(color-mix(in lab, #101821, transparent 50%), color-mix(in lab, #101821, transparent 60%), color-mix(in lab, #1d3042, transparent 70%), color-mix(in lab, #1d3042, transparent 60%));
+    background-image: radial-gradient(rgba(16, 24, 33, 0.5), rgba(16, 24, 33, 0.6), rgba(29, 48, 66, 0.9), rgba(29, 48, 66, 1));
+    background-image: radial-gradient(rgba(29, 48, 66, 0.5), rgba(29, 48, 66, 0.6), rgba(16, 24, 33, 0.9), rgba(16, 24, 33, 1));
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 0.5s ease;
+    opacity: 1;
+  }
+  
+  .image-fog-hover{
+    opacity: 0.1;
+  }
+
+.expertise-info{
+    margin-top: 35%;
+}
+
+.expertise-info .text-info{
+    left: 40%;
+    position: absolute;
+    z-index: 100;
+}
+
+.expertise-info .text-description{
+    left: 30%;
+    position: absolute;
+    z-index: 100;
+    padding-top: 7%;
+    transition: all 2s ease-in-out;
+}
+
+
+.expertise-divider {
+    width: 5rem;
+    height: 0.25rem;
+    margin: 0 auto;
+  }
+
+  .direction-rtl {
+    direction: rtl;
+}

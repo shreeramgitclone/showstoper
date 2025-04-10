@@ -1,0 +1,31 @@
+.maintenance-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.maintenance-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9FAFB;
+  padding-top: 6rem;
+}
+
+.maintenance-box {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.maintenance-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d3750;
+  margin-bottom: 1rem;
+}
+
+.maintenance-text {
+  font-size: 1.125rem;
+  color: #6B7280;
+} 

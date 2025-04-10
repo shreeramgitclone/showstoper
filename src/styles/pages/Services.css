@@ -1,0 +1,70 @@
+.services-hero {
+  position: relative;
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d3750;
+  background: linear-gradient(344deg, rgb(36, 28, 56) 0%, #1d3750 50%);
+  overflow: hidden;
+  padding-top: 5rem;
+}
+.services-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 80px 80px; /* controls grid box size */
+  pointer-events: none;
+  z-index: 0;
+}
+
+.services-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.services-hero-content {
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 10;
+  padding-top: 2rem;
+}
+
+.services-hero-title {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.services-hero-description {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.service-section-white {
+  background-color: #1d3750;
+}
+
+@media (max-width: 768px) {
+  .services-hero {
+    min-height: 40vh;
+  }
+  
+  .services-hero-title {
+    font-size: 3rem;
+  }
+  
+  .services-hero-description {
+    font-size: 1.125rem;
+  }
+} 
