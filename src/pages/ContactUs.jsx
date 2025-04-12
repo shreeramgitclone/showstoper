@@ -72,11 +72,11 @@ const ContactUs = () => {
                 Navi Mumbai, Maharashtra - 400703
               </span></div>
               <hr />
-              <div className="contact-info-icon">📧 <span className="contact-info-text">info@showstoper.in</span>
+              <div className="contact-info-icon">📧<span className="contact-info-text">info@showstoper.in</span>
               </div>
               
               <hr/>
-              <div className="contact-info-icon">📱  <span className="contact-info-text">+91 877 998 7040 <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91 750 659 7467</span></div>
+              <div className="contact-info-icon">📱<span className="contact-info-text">+91 877 998 7040 <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91 750 659 7467</span></div>
              
             </motion.div>
 
