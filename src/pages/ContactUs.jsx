@@ -65,7 +65,7 @@ const ContactUs = () => {
               transition={{ duration: 0.5 }}
               className="contact-info-card"
             >
-              <div className="contact-info-icon">📍  <span className="contact-info-text ">
+              <div className="contact-info-icon ">📍  <span className="contact-info-text ">
                 Office No. 106, 1st Floor,
                 Thacker Tower, Sector 17, Plot No. 86,
                 Beside SaraswatBank, Vashi,
@@ -76,7 +76,7 @@ const ContactUs = () => {
               </div>
               
               <hr/>
-              <div className="contact-info-icon">📱  <span className="contact-info-text">+91 877 998 7040</span></div>
+              <div className="contact-info-icon">📱  <span className="contact-info-text">+91 877 998 7040 <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91 750 659 7467</span></div>
              
             </motion.div>
 

@@ -5,12 +5,20 @@
   min-height: fit-content;
   display: flex;
   align-items: center;
-  background-color: #1d3750;
+  background-color: #ffffff;
 }
-
+.CompanyProfilet{
+  color: #1d3750;
+}
+.cpmpanyprofilep{
+  color: #1d3750;
+}
+.text-lightbluew{
+  color: #1d3750;
+}
 .company-vision-divider {
-  width: 15rem;
-  height: 0.05rem;
+  width: 16rem !important;
+  height: 3px !important;
   background-color: #ed1c24 !important;
   margin: 0 auto;
 }

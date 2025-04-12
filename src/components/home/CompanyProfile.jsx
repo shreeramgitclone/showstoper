@@ -45,8 +45,8 @@ const CompanyProfile = () => {
             viewport={{ once: true }}
             className="text-center mb-4"
           >
-            <h2 className="text-6xl font-bold mb-5 text-white">Company Profile</h2>
-            {/* <div className="company-vision-divider mb-6"></div> */}
+            <h2 className="text-6xl font-bold mb-5 CompanyProfilet">Company Profile</h2>
+            <div className="company-vision-divider mb-6"></div>
           </motion.div>
 
           <div className="grid gap-4 items-center text-white">
@@ -56,8 +56,8 @@ const CompanyProfile = () => {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <h3 className="text-3xl font-semibold text-White">Who We Are</h3>
-              <p className="text-gray-300 text-lg leading-relaxed text-justify">
+              <h3 className="text-4xl font-semibold text-White cpmpanyprofilep">Who We Are</h3>
+              <p className="cpmpanyprofilep text-lg leading-relaxed text-justify">
                 At Showstoper Technologies and Media Pvt. Ltd. , we’re more than a software company—we’re innovators, problem-solvers, and partners in your digital journey. Since our founding in 2020, we’ve been driven by a singular vision: to empower businesses with transformative technology that unlocks growth, efficiency, and endless possibilities.
                 We’re a diverse collective of engineers, designers, strategists, and visionaries united by a shared goal: to build software that matters. With decades of combined experience and a culture of continuous learning, we thrive on solving the toughest challenges—and have fun doing it.
               </p>
@@ -88,7 +88,7 @@ const CompanyProfile = () => {
 
           </div>
           <div className='OurApproach'>
-            <h3 className="text-2xl font-semibold text-white py-8">Our Approach</h3>
+            <h3 className="text-2xl font-semibold text-lightbluew py-8">Our Approach</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
@@ -98,8 +98,8 @@ const CompanyProfile = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Innovation First</h4>
-                    <p className="text-gray-300">We prioritize innovative solutions that drive real business value</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Innovation First</h4>
+                    <p className="text-lightbluew">We prioritize innovative solutions that drive real business value</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -109,8 +109,8 @@ const CompanyProfile = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Client Partnership</h4>
-                    <p className="text-gray-300">We build lasting partnerships through collaboration and trust</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Client Partnership</h4>
+                    <p className="text-lightbluew">We build lasting partnerships through collaboration and trust</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -120,8 +120,8 @@ const CompanyProfile = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Quality Assured</h4>
-                    <p className="text-gray-300">We maintain the highest standards in all our deliverables</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Quality Assured</h4>
+                    <p className="text-lightbluew">We maintain the highest standards in all our deliverables</p>
                   </div>
                 </div>
               </div>
@@ -131,34 +131,34 @@ const CompanyProfile = () => {
                 <div className="flex items-start space-x-4">
                   <div className="icon-container">
                     <svg className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v6h6M20 20v-6h-6M4 20l6-6M20 4l-6 6" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Innovation First</h4>
-                    <p className="text-gray-300">We prioritize innovative solutions that drive real business value</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Scalable Solutions</h4>
+                    <p className="text-lightbluew">We craft systems that grow with your business</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="icon-container">
                     <svg className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v.01M8.5 8.5a5 5 0 107.07 7.07A5 5 0 008.5 8.5zm3.5-3.5V2m0 20v-3.5m7-7H22M2 12h3.5" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Client Partnership</h4>
-                    <p className="text-gray-300">We build lasting partnerships through collaboration and trust</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Result-Driven Strategy</h4>
+                    <p className="text-lightbluew">we focus on delivering measurable outcomes that matter to you.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="icon-container">
                     <svg className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4-4 7-9 7a9.77 9.77 0 01-3.58-.65L3 21l1.24-3.71A7 7 0 013 12c0-4 4-7 9-7s9 3 9 7z" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Quality Assured</h4>
-                    <p className="text-gray-300">We maintain the highest standards in all our deliverables</p>
+                    <h4 className="text-lg font-semibold text-lightbluew mb-1">Transparent Communication</h4>
+                    <p className="text-lightbluew">We keep you in the loop at every stage</p>
                   </div>
                 </div>
               </div>

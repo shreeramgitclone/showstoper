@@ -40,6 +40,7 @@
   /* color: #1a202c; */
   color: white;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .company-vision-divider {
@@ -104,3 +105,12 @@
 .company-vision-author-title {
   color: #4a5568;
 } 
+.Revenuet{
+  font-size: 2.25rem;
+}
+.justify{
+  text-align: justify;
+}
+.vmfont{
+  font-size: 2rem;
+}

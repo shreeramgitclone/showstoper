@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-grid">
-          <div>
+          <div className="border-b-4 md:border-b-0 md:border-r-2 border-gray-400">
             <Link to="/" className="flex items-center">
               <img
                 src={whiteLogo}
@@ -17,7 +17,7 @@ const Footer = () => {
               />
             </Link>
             <br />
-            <div>
+            <div >
             <ul className="space-y-2">
               <li className="footer-text">Email: info@showstoper.in</li>
               <li className="footer-text">Phone: +91 877 998 7040</li>
@@ -27,8 +27,8 @@ const Footer = () => {
             </ul>
             </div>
           </div>
-          <div>
-            <h3 className="footer-title">Quick Links</h3>
+          <div >
+            <h3 className="footer-title ">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="footer-link">Home</Link></li>
               <li><Link to="/about-us" className="footer-link">About</Link></li>
@@ -54,7 +54,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="footer-title">Services</h3>
+            
             <ul className="space-y-2">
               {/* <li><Link to="/it/automation" className="footer-link">Automation</Link></li>
               <li><Link to="/it/robotics" className="footer-link">Robotics</Link></li>

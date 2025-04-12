@@ -2,7 +2,7 @@
 
 .ExpertTeam {
     font-family: "Poppins", sans-serif;
-    background-color: #1d3750;
+    background-color: #ffffff;
     padding: 20px;
     border-bottom: 1px solid #2a3243;
 }
@@ -11,10 +11,20 @@
     font-size: 3.40rem;
     font-weight: 700;
     /* color: #1a202c; */
-    color: white;
+    color: #1d3750;
     margin-bottom: 2rem;
+    margin: 0;
+    margin-top: 2rem;
 }
 .title{
     font-size: 20px;
     font-weight: 700; 
+    
 }
+.text-lightbluew{
+    color: #1d3750;
+  }
+  .text-base{
+    padding-top: 10px;
+    font-size: 18px !important;
+  }

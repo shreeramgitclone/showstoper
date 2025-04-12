@@ -36,17 +36,17 @@ const Hero = () => {
   return (
     <section className="hero-section">
     <div className="hero-content">
-      <div className="hero-line">
-        Code that{' '}
+      <div className="hero-line"><span>Code that </span>
+         {' '}
         <span className="glass-box">
           <span className={`flip-word ${isFlipping ? 'flip' : ''}`}>
             {words[currentWordIndex]}
           </span>
         </span>
       </div>
-      <div>Innovation that scales</div>
+      <div className='Innovation'>Innovation that scales</div>
       <span className="sipmlifying">
-        Simplifying Complexity, Delivering Innovation
+      Simplifying<span className='sipmlifyingred'> Complexity</span>, Delivering <span className='sipmlifyingred'>Innovation</span>
       </span>
     </div>
   </section>
