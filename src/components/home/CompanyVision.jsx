@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FileBarChart, BarChart3, DatabaseZap } from "lucide-react";
 import '../../styles/components/home/CompanyVision.css';
 import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4';
+import cityscape from "../../assets/undraw_services_dhxj.svg";
 
 const CompanyVision = () => {
   return (
@@ -115,7 +116,7 @@ const CompanyVision = () => {
           {/* Right section */}
           <div className="flex-1 flex flex-col justify-center items-start">
             <img
-              src="/src/assets/undraw_services_dhxj.svg"
+              src={cityscape}
               alt="cityscape"
 
             />
