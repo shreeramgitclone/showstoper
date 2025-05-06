@@ -59,7 +59,7 @@ export default function ManagementInformationSystem() {
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Management Information System</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            Integrating Technology and Business Strategy
+              Integrating Technology and Business Strategy
             </p>
           </motion.div>
         </div>
@@ -69,7 +69,8 @@ export default function ManagementInformationSystem() {
           <h2 className="font-semibold text-white text-center text-3xl mb-2">Management Information System</h2>
           <div className="company-vision-divider mb-6"></div>
           <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
-            <p className='text-center mb-6'>Unravel the benefits of Digital Transformation Solutions to helps your businesses transition from traditional models to digitally-driven ones. This is why we embrace our customers and deliver transformative solutions to address their unique business challenges and determined to make a difference.</p>
+            <p className='text-center mb-6'>A well-implemented MIS can help a web portal stand out by offering faster services, reliable uptime, and data-driven features that competitors might lack.
+            Integrating an MIS into a web portal empowers businesses or organizations to operate more efficiently, deliver superior user experiences, and adapt to changing demands—all while keeping costs and risks in check.</p>
           </p>
         </div>
         <StyledWrapper>

@@ -2,6 +2,17 @@ import React from 'react';
 import Layout from '../../components/layout/Layout';
 import { motion } from 'framer-motion';
 import '../../styles/pages/ServicesAndSolutionsCommon.css';
+import iott from "../../assets/undraw_connected-world_anke.svg";
+const features = [
+  "Connectivity: Devices communicate via Wi-Fi, Bluetooth, Zigbee, or 5G, enabling seamless data exchange.",
+  "Sensors and Actuators: IoT devices use sensors (e.g., temperature, motion) to collect data and actuators to perform actions (e.g., turning on a fan).",
+  "Sensors and Actuators: IoT devices use sensors (e.g., temperature, motion) to collect data and actuators to perform actions (e.g., turning on a fan).",
+  "Interoperability: IoT systems integrate with various protocols and platforms, ensuring compatibility across devices.",
+  "Remote Control: Users can manage devices remotely via apps, like controlling smart lights from a smartphone.",
+  "Security Features: Encryption, authentication, and secure protocols protect data and prevent unauthorized access.",
+  "Scalable Architecture: IoT supports large networks of devices, handling increasing data volumes and connections.",
+  "AI Integration: Many IoT systems use AI for predictive analytics, anomaly detection, or personalized user experiences.",
+];
 
 export default function IotDegitalEngineering() {
   return (
@@ -22,15 +33,50 @@ export default function IotDegitalEngineering() {
           </motion.div>
         </div>
       </section>
-      <div style={{ backgroundColor: "#1d3750",borderBottom: "1px solid #2a3243" }}>
+      <div style={{ backgroundColor: "#1d3750", borderBottom: "1px solid #2a3243" }}>
         <div style={{ position: "relative", width: "100%", padding: '2rem', height: "50vh" }} className='container mx-auto px-4'>
           <h2 className="font-semibold text-white text-center text-3xl mb-2">Internet of Things (IoT)</h2>
           <div className="company-vision-divider mb-6"></div>
           <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
-            <p className='text-center mb-6'>Unravel the benefits of Digital Transformation Solutions to helps your businesses transition from traditional models to digitally-driven ones. This is why we embrace our customers and deliver transformative solutions to address their unique business challenges and determined to make a difference.</p>
+            <p className='text-center mb-6'>IoT offers significant benefits, challenges like data privacy, cybersecurity risks,
+              and high implementation costs require careful consideration</p>
+          </p>
+          <h2 className="font-semibold text-white text-center text-3xl mb-2">Why Us</h2>
+          <div className="company-vision-divider-small mb-6"></div>
+          <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
+            <p className='text-center mb-6'>Showstoper offers a comprehensive platform and ecosystem for implementing IoT solutions, leveraging its strong cloud infrastructure and analytics capabilities. By integrating IoT data with Cloud,
+              businesses can gain valuable insights to improve operations, create new revenue streams, and enhance customer experience</p>
           </p>
         </div>
       </div>
+      <section className="bg-[#1E344A] py-12 px-4 md:px-16">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          {/* Left: Content Box */}
+          <div className="bg-[#2C2C3F] text-white p-6 md:p-10 rounded-xl flex-1 shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center">Internet of Things</h2>
+            <hr className="border-gray-600 mb-6" />
+            <ul className="space-y-4 text-sm md:text-base">
+              {features.map((item, index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <span className="text-red-500 text-lg">✔️</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Right: Illustration */}
+          <div className="flex-1 flex justify-center">
+
+            <img
+              src={iott}
+              alt="iott"
+              className="max-w-xs md:max-w-sm lg:max-w-md"
+              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+            />
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }

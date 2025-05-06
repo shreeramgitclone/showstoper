@@ -47,9 +47,17 @@
   width: 15rem;
   height: 0.05rem;
   background-color: #ed1c24;
-  margin: 35px auto;
+  margin: 20px auto;
 }
-
+.company-vision-divider-small {
+  width: 5rem;
+  height: 0.20rem;
+  background-color: #ed1c24;
+  margin: 20px auto;
+}
+.left-aligntext{
+  text-align: left;
+}
 .company-vision-quote-box {
   /* background-color: white; */
   border-radius: 0.5rem;

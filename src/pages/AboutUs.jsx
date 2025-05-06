@@ -99,7 +99,7 @@ const AboutUs = () => {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -128,7 +128,7 @@ const AboutUs = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Values Section */}
       <section className="about-section about-section-gray">

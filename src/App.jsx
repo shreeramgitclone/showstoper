@@ -24,7 +24,10 @@ import CyberSecurity from './pages/services/CyberSecurity';
 import IotDegitalEngineering from './pages/services/IotDegitalEngineering';
 import RevenueManagementSystem from './pages/services/RevenueManagementSystem';
 import EnterpriseResourcePlanning from './pages/services/EnterpriseResourcePlanning';
+import DairySolutions from './pages/services/DairySolutions';
+import ConsultingOutsourcing from './pages/services/ConsultingOutsourcing';
 import CustomerRelationshipManagement from './pages/services/CustomerRelationshipManagement';
+
 
 function App() {
   return (
@@ -41,6 +44,8 @@ function App() {
         <Route path="/services/IotDegitalEngineering" element={<IotDegitalEngineering/>} />
         <Route path="/services/RevenueManagementSystem" element={<RevenueManagementSystem/>} />
         <Route path="/services/EnterpriseResourcePlanning" element={<EnterpriseResourcePlanning/>} />
+        <Route path="/services/DairySolutions" element={<DairySolutions/>} />
+        <Route path="/services/TrainingOutsourcing" element={<ConsultingOutsourcing/>} />
         <Route path="/services/CustomerRelationshipManagement" element={<CustomerRelationshipManagement/>} />
         <Route path="/industries" element={<Industries />} />
         <Route path="/it/automation" element={<Automation />} />

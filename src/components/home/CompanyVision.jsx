@@ -3,6 +3,7 @@ import { FileBarChart, BarChart3, DatabaseZap } from "lucide-react";
 import '../../styles/components/home/CompanyVision.css';
 import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4';
 import cityscape from "../../assets/undraw_services_dhxj.svg";
+import grapsvg from "../../assets/undraw_visual-data_3ghp.svg";
 
 const CompanyVision = () => {
   return (
@@ -50,12 +51,7 @@ const CompanyVision = () => {
             </div>
           </div>
         </div>
-        {/* 
-        <div className="company-vision-quote-box max-w-4xl mx-auto text-center px-4">
-          <blockquote className="company-vision-quote text-lg text-gray-700 italic">
-            " To be the unmatched and most trusted partner for businesses by delivering seamless, scalable, and transformative IT solutions that drive business to growth and success as well as to build a safer digital platform by providing robust, innovative cybersecurity solutions for businesses and individuals and to pioneering future of artificial intelligence and automation by enabling cutting edge technologies with smarter decisions that would foster creativity collaboration and progress."
-          </blockquote>
-        </div> */}
+
         <h2 className="company-vision-title text-center text-3xl font-bold mb-4 mt-15 ">Our Service</h2>
         <div className="bg-[#1d3750] text-white p-6 md:p-12 flex flex-col md:flex-row gap-10">
           {/* Left section */}
@@ -123,7 +119,79 @@ const CompanyVision = () => {
           </div>
         </div>
 
+        <h2 className="company-vision-title text-center text-3xl font-bold mb-4 mt-15 ">Company Overview</h2>
+        <div className="bg-[#1d3750] text-white p-6 md:p-12 flex flex-col md:flex-row gap-10">
+          {/* Left section */}
+          <div className="flex-1 flex flex-co justify-center items-start">
 
+            <img
+              src={grapsvg}
+              alt="grapsvg"
+
+            />
+            {/* Revenue Management System */}
+
+          </div>
+
+          {/* Right section */}
+          <div className=" flex-[1] space-y-8 l ">
+            <div>
+              <h3 className="text-xl font-semibold text-[#AEDFF7] flex items-center gap-2 Revenuet">
+                <span>
+                  <div className="w-14 h-14 rounded-full  flex items-center justify-center shadow-lg">
+                    <span className="text-xl text-[#AEDFF7]">★</span>
+                  </div>
+                </span>{" "}
+                Product-Based
+              </h3>
+              <p className="mt-2 justify"> Selling software and IOTs Solutions
+              </p>
+            </div>
+
+            {/* Management Information System */}
+            <div>
+              <h3 className="text-xl font-semibold text-[#AEDFF7] flex items-center gap-2 Revenuet">
+                <span>
+                  <div className="w-14 h-14 rounded-full  flex items-center justify-center shadow-lg">
+                    <span className="text-xl text-[#AEDFF7]">★</span>
+                  </div>
+                </span>{" "}
+                Service-Based
+              </h3>
+              <p className="mt-2 justify">  Offering ongoing support & Maintenance
+              </p>
+            </div>
+
+            {/* CRM & ERP Solutions */}
+            <div>
+              <h3 className="text-xl font-semibold text-[#AEDFF7] flex items-center gap-2 Revenuet">
+                <span>
+                  <div className="w-14 h-14 rounded-full  flex items-center justify-center shadow-lg">
+                    <span className="text-xl text-[#AEDFF7]">★</span>
+                  </div>
+                </span>{" "}
+                Subscription-Based
+              </h3>
+              <p className="mt-2 justify">  Providing software-as-a-service (SaaS) like
+                cloud platforms (e.g., Salesforce, AWS).
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-[#AEDFF7] flex items-center gap-2 Revenuet">
+                <span>
+                  <div className="w-14 h-14 rounded-full  flex items-center justify-center shadow-lg">
+                    <span className="text-xl text-[#AEDFF7]">★</span>
+                  </div>
+                </span>{" "}
+                Training & Outsourcing
+              </h3>
+              <p className="mt-2 justify">   Invest in in-house engineers for strategic,
+                high-value work (e.g., developing
+                proprietary software)
+              </p>
+            </div>
+          </div>
+        </div>
         {/* 3 Circular Cards Section */}
 
       </div>

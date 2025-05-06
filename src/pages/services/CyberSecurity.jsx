@@ -59,16 +59,24 @@ export default function ArtificialIntelligence() {
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Cyber Security</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            Your Shield Against Cyber Threats
+              Your Shield Against Cyber Threats
             </p>
           </motion.div>
         </div>
       </section>
-      <div className='ExpertTeam' style={{borderBottom: "1px solid #2a3243"}}>
+      <div className='ExpertTeam' style={{ borderBottom: "1px solid #2a3243" }}>
         <div className="container mx-auto px-4">
           <p className="text-center text-4xl m-2 text-white">Cyber Security</p>
           <div className="company-vision-divider mb-6"></div>
-          <p className="text-center text-base text-gray-300 mt-2">Cybersecurity is the most significant & essential security aspect of today’s world. When it comes to unparalleled Cybersecurity topics across various sectors we provide the best in class support. The world is inextricably linked and livelihoods connected to having a secure online experience. We are the strategic partners to walk by your side to protect your digital world. Efficiency: Speeds up content creation (text, images, etc.) dramatically. Personalization: Customizes outputs to individual needs or preferences. Cost Savings: Reduces expenses by automating labor-intensive tasks. Creativity Boost: Sparks new ideas and innovative designs. Scalability: Handles large-scale tasks effortlessly. Accessibility: Empowers non-experts to produce professional results. Data Enhancement: Creates synthetic data for training or testing. Always On: Delivers results anytime, without downtime. Cybersecurity Cybersecurity is the most significant & essential security aspect of today’s world. When it comes to unparalleled Cybersecurity topics across various sectors we provide the best in class support. The world is inextricably linked and livelihoods connected to having a secure online experience. We are the strategic partners to walk by your side to protect your digital world.        </p>
+          <p className="text-center text-base text-gray-400 mt-2">Cybersecurity is the most significant & essential security aspect of today’s world.
+            When it comes to unparalleled Cybersecurity topics across various sectors we provide the best in class support.
+            The world is inextricably linked and  livelihoods connected to having a secure online experience.
+            We are the strategic partners to walk by your side to protect your digital world.</p>
+<br />
+          <p className="text-center text-4xl m-2 text-white">Why Us</p>
+          <div className="company-vision-divider-small mb-6"></div>
+          <p className="text-center text-base text-gray-400 mt-2">Showstoper Tech provides professional services for businesses and helps automate repetitive tasks, streamline processes, and eliminate manual interventions, there by increasing efficiency and productivity.
+            This increased efficiency results in a faster time to market and lower operational costs.</p>
           <StyledWrapper>
             <div className="grid-container">
               {cardData.map((item, index) => (

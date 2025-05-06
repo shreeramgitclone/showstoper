@@ -3,6 +3,7 @@ import Layout from '../../components/layout/Layout';
 import '../../styles/pages/ServicesAndSolutionsCommon.css';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import dragdrop from "../../assets/undraw_digital-nomad_xr4z.svg";
 
 export default function DigitalTransform() {
   return (
@@ -18,7 +19,7 @@ export default function DigitalTransform() {
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Digital Transformation</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            Empowering Innovation Through Technology
+              Empowering Innovation Through Technology
             </p>
           </motion.div>
         </div>
@@ -28,129 +29,180 @@ export default function DigitalTransform() {
           <h2 className="font-semibold text-white text-center text-3xl mb-2">Digital Transformation </h2>
           <div className="company-vision-divider mb-6"></div>
           <p className="text-lg text-gray-300 leading-relaxed text-center mt-6">
+
             <p className='text-center mb-6'>Unravel the benefits of Digital Transformation Solutions to helps your businesses transition from traditional models to digitally-driven ones. This is why we embrace our customers and deliver transformative solutions to address their unique business challenges and determined to make a difference.</p>
+            <h2 className="font-semibold text-white text-center text-3xl mb-2">Why Us </h2>
+            <div className="company-vision-divider-small mb-6"></div>
+            <p className='text-center mb-6'>Showstoper Tech provides professional services for businesses and helps automate repetitive tasks, streamline processes, and eliminate manual interventions, there by increasing efficiency and productivity. This increased efficiency results in a faster time to market and lower operational costs.</p>
+
             <h2 className="font-semibold text-white text-center text-3xl mb-2">Digital Transformation Technologies</h2>
             <div className="company-vision-divider mb-6"></div>
-            <div style={{display: "flex", gap: "20px", justifyContent: "center", alignItems: "center"}} className='mt-6'>
-              <StyledWrapper>
-                <div className="card">
-                  <div className="card__border" />
-                  <div className="card_title__container">
-                    <span className="card_title">Digital Transformation Technologies</span>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+
+
+              }}
+              className="mt-6"
+            >
+              {/* Left Side - Cards */}
+              <div
+                style={{
+                  width: "50%",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "20px",
+                }}
+              >
+                <StyledWrapper>
+                  <div className="card">
+                    <div className="card__border" />
+                    <div className="card_title__container">
+                      <span className="card_title">Digital Transformation Technologies</span>
+                    </div>
+                    <hr className="line" />
+                    <ul className="card__list">
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Artificial intelligence</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Hybrid cloud</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Blockchain</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Internet of Things (IoT)</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Microservices</span>
+                      </li>
+                    </ul>
                   </div>
-                  <hr className="line" />
-                  <ul className="card__list">
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Artificial intelligence</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Hybrid cloud</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Blockchain</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Internet of Things (IoT)</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Microservices</span>
-                    </li>
-                  </ul>
-                </div>
-              </StyledWrapper>
-              <StyledWrapper>
-                <div className="card">
-                  <div className="card__border" />
-                  <div className="card_title__container">
-                    <span className="card_title"> Digital Transformation and Showstoper Tech.</span>
+                </StyledWrapper>
+
+                <StyledWrapper>
+                  <div className="card">
+                    <div className="card__border" />
+                    <div className="card_title__container">
+                      <span className="card_title">Digital Transformation and Showstoper Tech.</span>
+                    </div>
+                    <hr className="line" />
+                    <ul className="card__list">
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Increased Efficiency</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Improved Customer Experience</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Better Decision-Making</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Increased Agility</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Develop a Clear Strategy</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Build a Strong Team</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Embrace Change</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Focus on Customer Needs</span>
+                      </li>
+                      <li className="card__list_item">
+                        <span className="check">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
+                            <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                          </svg>
+                        </span>
+                        <span className="list_text">Continuously Monitor and Adapt</span>
+                      </li>
+                    </ul>
                   </div>
-                  <hr className="line" />
-                  <ul className="card__list">
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Increased Efficiency</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Improved Customer Experience</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Better Decision-Making</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Increased Agility</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Develop a Clear Strategy</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Build a Strong Team</span>
-                    </li>
-                    <li className="card__list_item">
-                      <span className="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="check_svg">
-                          <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                      <span className="list_text">Embrace Change</span>
-                    </li>
-                  </ul>
-                </div>
-              </StyledWrapper>
+                </StyledWrapper>
+              </div>
+
+              {/* Right Side - Image */}
+              <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+
+                <img
+                  src={dragdrop}
+                  alt="dragdrop"
+                  style={{ width: "100%", height: "auto", objectFit: "contain" }}
+                />
+              </div>
             </div>
+
           </p>
         </div>
       </div>
@@ -166,31 +218,17 @@ const StyledWrapper = styled.div`
     --black: hsl(240, 15%, 9%);
     --paragraph: hsl(0, 0%, 83%);
     --line: hsl(240, 9%, 17%);
-    --primary: hsl(266, 92%, 58%);
-
+    --primary: #ed1c24;
     position: relative;
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
     padding: 1rem;
-    width: 19rem;
-    height: 20rem;
-    background-color: hsla(240, 15%, 9%, 1);
-    background-image: radial-gradient(
-        at 88% 40%,
-        hsla(240, 15%, 9%, 1) 0px,
-        transparent 85%
-      ),
-      radial-gradient(at 49% 30%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
-      radial-gradient(at 14% 26%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
-      radial-gradient(at 0% 64%, hsla(263, 93%, 56%, 1) 0px, transparent 85%),
-      radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
-      radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
-
+    width: fit-content;
+    height: fit-content;
+    background-color: #2f2e41;
     border-radius: 1rem;
-    box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+   
   }
 
   .card .card__border {

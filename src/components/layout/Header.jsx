@@ -77,8 +77,9 @@ const Header = () => {
         { label: 'Revenue Management System', path: '/services/RevenueManagementSystem' },
         { label: 'Customer Relationship Management', path: '/services/CustomerRelationshipManagement' },
         { label: 'Enterprise Resource Planning', path: '/services/EnterpriseResourcePlanning' },
-        { label: 'Dairy Solution', path: '/services' },
-        { label: 'Consulting and Outsourcing', path: '/services' },
+        { label: 'Dairy Solution', path: '/services/DairySolutions' },
+        { label: 'Training and Outsourcing', path: '/services/TrainingOutsourcing' },
+        { label: 'Training and Outsourcing', path: '/services' },
         { label: 'Data Science and Analytics', path: '/services'}
       ]
     },
@@ -93,14 +94,14 @@ const Header = () => {
       //   { label: 'Education and Engineering', path: '/industries/education' },
       //   { label: 'Agriculture', path: '/industries/agriculture' },
       // ]
-      dropdown: [
-        { label: 'Pharma Engineering', path: '/industries' },
-        { label: 'Health Industries', path: '/industries' },
-        { label: 'Banking and Finance', path: '/industries' },
-        { label: 'Dairy Industries', path: '/industries' },
-        { label: 'Education and Engineering', path: '/industries' },
-        { label: 'Agriculture', path: '/industries' },
-      ]
+      // dropdown: [
+      //   { label: 'Pharma Engineering', path: '/industries' },
+      //   { label: 'Health Industries', path: '/industries' },
+      //   { label: 'Banking and Finance', path: '/industries' },
+      //   { label: 'Dairy Industries', path: '/industries' },
+      //   { label: 'Education and Engineering', path: '/industries' },
+      //   { label: 'Agriculture', path: '/industries' },
+      // ]
     },
     {
       label: 'Career',

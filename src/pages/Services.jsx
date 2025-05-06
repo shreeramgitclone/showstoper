@@ -67,7 +67,7 @@ const Services = () => {
       icon: '🥛'
     },
     {
-      title: 'Consulting and Outsourcing',
+      title: 'Training and Outsourcing',
       path: '/services/consulting',
       description: 'Expert consulting and reliable outsourcing',
       icon: '💼'

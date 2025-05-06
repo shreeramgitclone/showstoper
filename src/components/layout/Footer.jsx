@@ -65,7 +65,7 @@ const Footer = () => {
               <li><Link to="" className="footer-link">Customer Relationship Management</Link></li>
               <li><Link to="" className="footer-link">Enterprise Resource Planning</Link></li>
               <li><Link to="" className="footer-link">Dairy Solution</Link></li>
-              <li><Link to="" className="footer-link">Consulting and Outsourcing</Link></li>
+              <li><Link to="" className="footer-link">Training and Outsourcing</Link></li>
 
             </ul>
           </div>

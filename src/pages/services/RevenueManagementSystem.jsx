@@ -2,6 +2,17 @@ import React from 'react';
 import Layout from '../../components/layout/Layout';
 import { motion } from 'framer-motion';
 import '../../styles/pages/ServicesAndSolutionsCommon.css';
+import Revenue from "../../assets/undraw_revenue_kv38.svg";
+
+const features = [
+  ["Dynamic Pricing:Adjusts pricing in real-time based on demand, competition, and customer willingness to pay"],
+  ["Demand Forecasting:Uses historical data, market trends, and AI/ML algorithms to predict future demand for IT services."],
+  ["Customer Segmentation:Groups customers by behavior, industry, or usage patterns to tailor pricing and promotions."],
+  ["Real-Time Analytics:Provides dashboards and reports on key performance indicators (KPIs) like revenue per user (ARPU), churn rate, and subscription renewals."],
+  ["Integration with IT Systems:Seamlessly connects with CRM (e.g., Salesforce), ERP, billing platforms (e.g., Oracle Revenue Management and Billing), and usage tracking tools to ensure data consistency."],
+  ["Competitor Analysis:Monitors competitors’ pricing and features to position services competitively"],
+  
+];
 
 export default function RevenueManagementSystem() {
   return (
@@ -27,10 +38,48 @@ export default function RevenueManagementSystem() {
           <h2 className="font-semibold text-white text-center text-3xl mb-2">Revenue Management System</h2>
           <div className="company-vision-divider mb-6"></div>
           <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
-            <p className='text-center mb-6'>Unravel the benefits of Digital Transformation Solutions to helps your businesses transition from traditional models to digitally-driven ones. This is why we embrace our customers and deliver transformative solutions to address their unique business challenges and determined to make a difference.</p>
+            <p className='text-center mb-6'>Revenue Management System (RMS) in Information Technology (IT) is a software solution that helps IT companies, particularly those offering software-as-a-service (SaaS), cloud services, or other subscription-based models, optimize pricing, forecast demand, and maximize revenue. It leverages data analytics,
+              automation, and real-time insights to align pricing strategies with market demand, customer behavior, and business goals.</p>
+          </p>
+
+          <h2 className="font-semibold text-white text-center text-3xl mb-2">Why Us</h2>
+          <div className="company-vision-divider-small mb-6"></div>
+          <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
+            <p className='text-center mb-6'>Showstoper offers revenue management solutions to help businesses improve their pricing strategies, optimize product mix, and enhance revenue generation through various tools and services, including Planning Analytics,
+              CRM, and consulting services. By leveraging its expertise and technology,
+              businesses can achieve higher revenue, lower costs, and improved operational efficiency.</p>
           </p>
         </div>
       </div>
+      <section className="bg-[#1E344A] py-12 px-4 md:px-16">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          {/* Left: Content Box */}
+          <div className="bg-[#2C2C3F] text-white p-6 md:p-10 rounded-xl flex-1 shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center">Revenue Management System</h2>
+            <hr className="border-gray-600 mb-6" />
+            <ul className="space-y-4 text-sm md:text-base">
+              {features.map(([title, desc], index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <span className="text-[#ed1c24] text-lg mt-0.5">✔️</span>
+                  <span>
+                    <span className="font-semibold">{title}</span> {desc}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Right: Illustration */}
+          <div className="flex-1 flex justify-center">
+            <img
+              src={Revenue}
+              alt="Revenue"
+              className="max-w-xs md:max-w-sm lg:max-w-md"
+              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+            />
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
