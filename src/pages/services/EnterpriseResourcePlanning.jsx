@@ -33,7 +33,7 @@ export default function EnterpriseResourcePlanning() {
         </div>
       </section>
       <div style={{ backgroundColor: "#1d3750", borderBottom: "1px solid #2a3243" }}>
-        <div style={{ position: "relative", width: "100%", padding: '2rem', height: "50vh" }} className='container mx-auto px-4'>
+        <div style={{ position: "relative", width: "100%", padding: '2rem', }} className='container mx-auto px-4'>
           <h2 className="font-semibold text-white text-center text-3xl mb-2">Enterprise Resource Planning</h2>
           <div className="company-vision-divider mb-6"></div>
           <p className="text-lg text-gray-400 leading-relaxed text-center mt-6">
