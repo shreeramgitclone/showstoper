@@ -33,9 +33,9 @@ const Footer = () => {
               <li><Link to="/" className="footer-link">Home</Link></li>
               <li><Link to="/about-us" className="footer-link">About</Link></li>
               {/* <li><Link to="/careers" className="footer-link">Careers</Link></li> */}
-              <li><Link to="" className="footer-link">Careers</Link></li>
+              <li><Link to="/career" className="footer-link">Careers</Link></li>
               {/* <li><Link to="/contact" className="footer-link">Contact</Link></li> */}
-              <li><Link to="" className="footer-link">Contact</Link></li>
+              <li><Link to="/contact-us" className="footer-link">Contact</Link></li>
             </ul>
           </div>
           <div>
@@ -45,11 +45,11 @@ const Footer = () => {
               <li><Link to="/it/robotics" className="footer-link">Robotics</Link></li>
               <li><Link to="/it/iot" className="footer-link">IOT</Link></li>
               <li><Link to="/it/maintenance" className="footer-link">Maintenance & Service</Link></li> */}
-              <li><Link to="" className="footer-link">Mobile and Desktop Applications</Link></li>
-              <li><Link to="" className="footer-link">Digital Transformation</Link></li>
-              <li><Link to="" className="footer-link">Management Information Systems</Link></li>
-              <li><Link to="" className="footer-link">Artificial Intelligence</Link></li>
-              <li><Link to="" className="footer-link">Cyber Security</Link></li>
+              <li><Link to="/services/applications" className="footer-link">Mobile and Desktop Applications</Link></li>
+              <li><Link to="/services/DigitalTransform" className="footer-link">Digital Transformation</Link></li>
+              <li><Link to="/services/ManagementInformationSystem" className="footer-link">Management Information Systems</Link></li>
+              <li><Link to="/services/ArtificialIntelligence" className="footer-link">Artificial Intelligence</Link></li>
+              <li><Link to="/services/CyberSecurity" className="footer-link">Cyber Security</Link></li>
               
             </ul>
           </div>
@@ -60,12 +60,12 @@ const Footer = () => {
               <li><Link to="/it/robotics" className="footer-link">Robotics</Link></li>
               <li><Link to="/it/iot" className="footer-link">IOT</Link></li>
               <li><Link to="/it/maintenance" className="footer-link">Maintenance & Service</Link></li> */}
-              <li><Link to="" className="footer-link">IOT and Digital Engineering</Link></li>
-              <li><Link to="" className="footer-link">Revenue Management System</Link></li>
-              <li><Link to="" className="footer-link">Customer Relationship Management</Link></li>
-              <li><Link to="" className="footer-link">Enterprise Resource Planning</Link></li>
-              <li><Link to="" className="footer-link">Dairy Solution</Link></li>
-              <li><Link to="" className="footer-link">Training and Outsourcing</Link></li>
+              <li><Link to="/services/IotDegitalEngineering" className="footer-link">IOT and Digital Engineering</Link></li>
+              <li><Link to="/services/RevenueManagementSystem" className="footer-link">Revenue Management System</Link></li>
+              <li><Link to="/services/CustomerRelationshipManagement" className="footer-link">Customer Relationship Management</Link></li>
+              <li><Link to="/services/EnterpriseResourcePlanning" className="footer-link">Enterprise Resource Planning</Link></li>
+              <li><Link to="/services/DairySolutions" className="footer-link">Dairy Solution</Link></li>
+              <li><Link to="/services/TrainingOutsourcing" className="footer-link">Training and Outsourcing</Link></li>
 
             </ul>
           </div>
