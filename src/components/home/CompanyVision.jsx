@@ -5,11 +5,11 @@ import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4
 import cityscape from "../../assets/undraw_services_dhxj.svg";
 import grapsvg from "../../assets/undraw_visual-data_3ghp.svg";
 const logos = [
-    { name: "Optimizely", src: "../../assets/Black And White King Logo.png" },
-    { name: "draftbit", src: "src/assets/Black And White King Logo.png" },
-    { name: "mparticle", src: "src/assets/Black And White King Logo.png" },
-    { name: "loom", src: "src/assets/Black And White King Logo.png" },
-    { name: "pe", src: "src/assets/Black And White King Logo.png" },
+    { name: "kalinga copper", src: "../../assets/Black And White King Logo.png" },
+    { name: "", src: "src/assets/Black And White King Logo.png" },
+    { name: "", src: "src/assets/Black And White King Logo.png" },
+    { name: "", src: "src/assets/Black And White King Logo.png" },
+    { name: "", src: "src/assets/Black And White King Logo.png" },
   ];
 
 const CompanyVision = () => {
