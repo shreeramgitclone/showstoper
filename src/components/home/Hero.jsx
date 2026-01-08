@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import '../../styles/components/home/Hero.css';
-import image from "../../assets/lady.jpeg"; 
+import image from "../../assets/officevibe.png"; 
 
 const Hero = () => {
-  const words = ["empowers", "inspires", "transforms", "builds", "elevates"];
+  const words = ["Empowers", "Inspires", "Transforms", "Builds", "Elevates"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isFlipping, setIsFlipping] = useState(false);
 
@@ -50,6 +50,8 @@ const Hero = () => {
       </span>
     </div>
   </section>
+
+
   
   );
 };

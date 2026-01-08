@@ -59,7 +59,7 @@
 
 
 
-.glass-box {
+/* .glass-box {
     display: inline-block;
     padding: 0.2em 0.6em;
     border-radius: 12px;
@@ -70,9 +70,9 @@
     text-align: center;
     perspective: 1000px;
     min-width: -moz-fit-content;
-    /* min-width: fit-content; */
+    min-width: fit-content;
     width: 380px;
-}
+} */
 
 .flip-word {
   display: inline-block;
@@ -88,11 +88,11 @@
 }
 .hero-section {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-image: url('../../../assets/lady.jpeg');
+  background-image: url('../../../assets/officevibe.png');
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;

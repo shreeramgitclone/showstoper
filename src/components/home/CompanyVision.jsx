@@ -4,6 +4,13 @@ import '../../styles/components/home/CompanyVision.css';
 import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4';
 import cityscape from "../../assets/undraw_services_dhxj.svg";
 import grapsvg from "../../assets/undraw_visual-data_3ghp.svg";
+const logos = [
+    { name: "Optimizely", src: "src/assets/Black And White King Logo.png" },
+    { name: "draftbit", src: "src/assets/Black And White King Logo.png" },
+    { name: "mparticle", src: "src/assets/Black And White King Logo.png" },
+    { name: "loom", src: "src/assets/Black And White King Logo.png" },
+    { name: "pe", src: "src/assets/Black And White King Logo.png" },
+  ];
 
 const CompanyVision = () => {
   return (
@@ -193,6 +200,29 @@ const CompanyVision = () => {
           </div>
         </div>
         {/* 3 Circular Cards Section */}
+<br /><br /><br /><br />
+        <div className="w-full bg-ed1c24 pt-10">
+          <div className="mx-auto max-w-6xl px-4">
+            <h1 className="text-center text-3xl font-semibold text-[black] ">
+              Trusted by leaders in the industry
+            </h1>
+
+            <div className=" flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
+              {logos.map((logo) => (
+                <img
+                  key={logo.name}
+                  src={logo.src}
+                  alt={logo.name}
+                  className="h-40 w-auto"
+                  loading="lazy"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
+
+
 
       </div>
 

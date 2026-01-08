@@ -47,8 +47,8 @@ const cardData = [
 export default function ExpertTeam() {
   return (
     <div className="ExpertTeam">
-      <p className="text-center text-4xl m-2 text-white mt-20 Expertise" >Our Areas of Expertise</p>
-      <p className="text-center text-base text-lightbluew">We are experts professionals who are continuously working for esteemed brands globally</p>
+      {/* <p className="text-center text-4xl m-2 text-white mt-20 Expertise" >Our Areas of Expertise</p> */}
+      {/* <p className="text-center text-base text-lightbluew">We are experts professionals who are continuously working for esteemed brands globally</p> */}
       <StyledWrapper>
         <div className="grid-container">
           {cardData.map((item, index) => (
