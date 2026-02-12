@@ -5,14 +5,23 @@ import vid from '../../assets/WhatsApp Video 2025-03-22 at 15.58.16_2787df73.mp4
 import cityscape from "../../assets/undraw_services_dhxj.svg";
 import grapsvg from "../../assets/undraw_visual-data_3ghp.svg";
 import kalingaLogo from "../../assets/Black And White King Logo.png";
+import proppoints from "../../assets/proppoints.png";
+import jeevan from "../../assets/jeevan.png";
+import velvetlooms from "../../assets/velvetlooms.png";
+
+
+
+
+
 
 const logos = [
-    { name: "kalinga copper", src: kalingaLogo },
-    { name: "", src: "src/assets/Black And White King Logo.png" },
-    { name: "", src: "src/assets/Black And White King Logo.png" },
-    { name: "", src: "src/assets/Black And White King Logo.png" },
-    { name: "", src: "src/assets/Black And White King Logo.png" },
-  ];
+  { name: "kalinga copper", src: kalingaLogo },
+  { name: "proppoints", src: proppoints },
+  { name: "jeevan", src: jeevan },
+  { name: "velvetlooms", src: velvetlooms },
+  // { name: "", src: "src/assets/Black And White King Logo.png" },
+
+];
 
 const CompanyVision = () => {
   return (
@@ -202,7 +211,7 @@ const CompanyVision = () => {
           </div>
         </div>
         {/* 3 Circular Cards Section */}
-<br /><br /><br /><br />
+        <br /><br /><br /><br />
         <div className="w-full bg-ed1c24 pt-10">
           <div className="mx-auto max-w-6xl px-4">
             <h1 className="text-center text-3xl font-semibold text-[black] ">
