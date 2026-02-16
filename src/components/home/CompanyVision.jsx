@@ -8,7 +8,10 @@ import kalingaLogo from "../../assets/Black And White King Logo.png";
 import proppoints from "../../assets/proppoints.png";
 import jeevan from "../../assets/jeevan.png";
 import velvetlooms from "../../assets/velvetlooms.png";
-
+import iso1 from "../../assets/iso-9001.jpg";
+import iso2 from "../../assets/iso-14001.jpg";
+import iso3 from "../../assets/iso-27001.jpg";
+import iso4 from "../../assets/iso-45001.jpg";
 
 
 
@@ -210,14 +213,54 @@ const CompanyVision = () => {
             </div>
           </div>
         </div>
+
+
+        <h2 className="company-vision-title text-center text-3xl font-bold mb-4 mt-15 ">Certification</h2>
+
+        <div className="bg-[#1d3750] text-white p-6 md:p-12 flex flex-col md:flex-row gap-10">
+          {/* Left section */}
+          <div className="flex-1 flex flex-co justify-center items-start">
+
+            <img
+              src={iso1}
+              alt="grapsvg"
+            />
+          </div>
+          <div className="flex-1 flex flex-co justify-center items-start">
+
+            <img
+              src={iso2}
+              alt="grapsvg"
+            />
+          </div>
+          <div className="flex-1 flex flex-co justify-center items-start">
+
+            <img
+              src={iso3}
+              alt="grapsvg"
+            />
+          </div>
+          <div className="flex-1 flex flex-co justify-center items-start">
+
+            <img
+              src={iso4}
+              alt="grapsvg"
+            />
+          </div>   
+
+          {/* <div className=" flex-[1] space-y-8 l "> */}
+
+
+
+        </div>
         {/* 3 Circular Cards Section */}
         <br /><br /><br /><br />
         <div className="w-full bg-ed1c24 pt-10">
           <div className="mx-auto max-w-6xl px-4">
-            <h1 className="text-center text-3xl font-semibold text-[black] ">
-              Trusted by leaders in the industry
+            <h1 className="text-center text-3xl font-semibold  ">
+              Trusted By Leaders In The Industry
             </h1>
-
+<br />
             <div className=" flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
               {logos.map((logo) => (
                 <img
